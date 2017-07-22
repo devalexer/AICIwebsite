@@ -32,11 +32,11 @@ namespace AICIwebsite
                       "~/Scripts/respond.js"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
+                      "~/Content/site.css",
                       "~/Content/css/agency.css",
                       "~/Content/css/agency.min.css",
                       "~/Content/bootstrap.css",
                       "~/Content/bootstrap.min.css",
-                      "~/Content/site.css",
                       "~/Content/vendor/bootstrap/css/bootstrap.css",
                       "~/Content/vendor/bootstrap/css/bootstrap.min.css",
                       "~/Content/vendor/font-awesome/css/font-awesome.css",

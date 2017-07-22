@@ -226,16 +226,17 @@ fieldset[disabled] .btn-xl.active {
   }
 }
 header {
-  background-image: url('~/img/header-bg.jpg');
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-position: center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
-  text-align: center;
-  color: white;
+    background-image: url('../../img/portfolio/bookInAir.jpg');
+    /*background-image: url('~/img/header-bg.jpg');*/
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    text-align: center;
+    color: white;
 }
 header .intro-text {
   padding-top: 100px;
@@ -258,7 +259,8 @@ header .intro-text .intro-heading {
 }
 @media (min-width: 768px) {
   header .intro-text {
-    padding-top: 300px;
+    padding-top: 200px;
+        /*padding-top: 300px;*/
     padding-bottom: 200px;
   }
   header .intro-text .intro-lead-in {
@@ -468,7 +470,7 @@ section h3.section-subheading {
     left: 50%;
   }
   .timeline > li {
-    margin-bottom: 100px;
+    /*margin-bottom: 100px;*/
     min-height: 100px;
   }
   .timeline > li .timeline-panel {
