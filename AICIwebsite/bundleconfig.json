@@ -1,0 +1,56 @@
+[
+  {
+    "outputFileName": "Content/css/agency.min.css",
+    "inputFiles": [
+      "Content/css/agency.css"
+    ]
+  },
+  {
+    "outputFileName": "Content/vendor/bootstrap/css/bootstrap.min.css",
+    "inputFiles": [
+      "Content/vendor/bootstrap/css/bootstrap.css"
+    ]
+  },
+  {
+    "outputFileName": "Content/vendor/font-awesome/css/font-awesome.min.css",
+    "inputFiles": [
+      "Content/vendor/font-awesome/css/font-awesome.css"
+    ]
+  },
+  {
+    "outputFileName": "Content/vendor/jquery/jquery.min.js",
+    "inputFiles": [
+      "Content/vendor/jquery/jquery.js"
+    ]
+  },
+  {
+    "outputFileName": "Content/agency.min.css",
+    "inputFiles": [
+      "Content/agency.css"
+    ]
+  },
+  {
+    "outputFileName": "Content/bootstrap.min.css",
+    "inputFiles": [
+      "Content/bootstrap.css"
+    ]
+  },
+  {
+    "outputFileName": "Content/Site.min.css",
+    "inputFiles": [
+      "Content/Site.css"
+    ]
+  },
+  {
+    "outputFileName": "Scripts/js/agency.min.js",
+    "inputFiles": [
+      "Scripts/js/agency.js"
+    ]
+  },
+  {
+    "outputFileName": "Scripts/js/contact_me.min.js",
+    "inputFiles": [
+      "Scripts/js/contact_me.js"
+    ]
+  }
+]
