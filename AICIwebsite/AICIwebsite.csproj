@@ -287,6 +287,8 @@
     <Content Include="Content\vendor\font-awesome\scss\_stacked.scss" />
     <Content Include="Content\vendor\font-awesome\scss\_variables.scss" />
     <None Include="bundleconfig.json" />
+    <None Include="Properties\PublishProfiles\aici - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\aici - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
