@@ -164,45 +164,48 @@
       <DependentUpon>agency.css</DependentUpon>
     </Content>
     <Content Include="Content\Site.min.css">
-      <DependentUpon>Site.css</DependentUpon>
+      <DependentUpon>site.css</DependentUpon>
     </Content>
-    <Content Include="img\about\1.jpg" />
-    <Content Include="img\about\2.jpg" />
-    <Content Include="img\about\3.jpg" />
-    <Content Include="img\about\4.jpg" />
-    <Content Include="img\header-bg.jpg" />
-    <Content Include="img\logos\creative-market.jpg" />
-    <Content Include="img\logos\designmodo.jpg" />
-    <Content Include="img\logos\envato.jpg" />
-    <Content Include="img\logos\themeforest.jpg" />
     <Content Include="img\map-image.png" />
+    <Content Include="img\modals\beachCrew.JPG" />
+    <Content Include="img\modals\boatPic.JPG" />
+    <Content Include="img\modals\brits.jpg" />
+    <Content Include="img\modals\carmen.jpg" />
+    <Content Include="img\modals\dominos.JPG" />
+    <Content Include="img\modals\drinkingThree.JPG" />
+    <Content Include="img\modals\eatingTapioca.JPG" />
+    <Content Include="img\modals\flagThirdFloor.jpg" />
+    <Content Include="img\modals\fourOnBeach.JPG" />
+    <Content Include="img\modals\grassMusic.JPG" />
+    <Content Include="img\modals\juliette.jpg" />
+    <Content Include="img\modals\sunsetTalk.jpg" />
     <Content Include="img\portfolio\AICI_logo.png" />
     <Content Include="img\portfolio\AICI_logo_fb.png" />
+    <Content Include="img\portfolio\allieClass.JPG" />
     <Content Include="img\portfolio\beachevening.jpg" />
     <Content Include="img\portfolio\beachGroup.jpg" />
     <Content Include="img\portfolio\beachreaders.jpg" />
     <Content Include="img\portfolio\boat.jpg" />
     <Content Include="img\portfolio\bookInAir.jpg" />
     <Content Include="img\portfolio\businessmtg.jpg" />
+    <Content Include="img\portfolio\busyStreet.jpg" />
+    <Content Include="img\portfolio\busyStreet2.jpg" />
     <Content Include="img\portfolio\coconutBeach.jpg" />
     <Content Include="img\portfolio\coffeeGroup.jpg" />
     <Content Include="img\portfolio\DSC05955.JPG" />
     <Content Include="img\portfolio\Eating.JPG" />
     <Content Include="img\portfolio\groupbeach.JPG" />
     <Content Include="img\portfolio\mapClipOfNV.PNG" />
-    <Content Include="img\portfolio\meal.JPG" />
+    <Content Include="img\modals\meal.JPG" />
     <Content Include="img\portfolio\Music.JPG" />
     <Content Include="img\portfolio\readBeachChairs.jpg" />
-    <Content Include="img\portfolio\sandCloseup.JPG" />
+    <Content Include="img\modals\sandCloseup.JPG" />
     <Content Include="img\portfolio\snorkelingBoat.jpg" />
     <Content Include="img\portfolio\statueOfLiberty.jpg" />
-    <Content Include="img\portfolio\sunset.jpg" />
+    <Content Include="img\modals\sunset.jpg" />
     <Content Include="img\portfolio\threeGirlsBeach.jpg" />
     <Content Include="img\portfolio\usa-brasil flag.jpg" />
     <Content Include="img\portfolio\wideMapNV.png" />
-    <Content Include="img\team\1.jpg" />
-    <Content Include="img\team\2.jpg" />
-    <Content Include="img\team\3.jpg" />
     <Content Include="Scripts\js\agency.js" />
     <Content Include="Scripts\js\agency.min.js">
       <DependentUpon>agency.js</DependentUpon>
@@ -229,7 +232,7 @@
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
-    <Content Include="Content\Site.css" />
+    <Content Include="Content\site.css" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="ApplicationInsights.config">
@@ -301,13 +304,10 @@
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
-    <Content Include="Views\Home\About.cshtml" />
-    <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />

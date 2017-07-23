@@ -10,7 +10,9 @@
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                 <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
             </button>
-            <a class="navbar-brand page-scroll" href="#page-top">AICI</a>
+            <h2 class="section-heading" id="logoHolder" href="#page-top">AICI</h2>
+            @*<a class="navbar-brand page-scroll" href="#page-top">AICI</a>*@
+            @*<img src="~/images/Evaluchart3 yel 25-01.svg" alt="EvaluChart" style="width:400px;height:100px;" class="navbar-brand page-scroll" href="#page-top" />*@
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -20,19 +22,19 @@
                     <a href="#page-top"></a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="#services">Services</a>
+                    <a class="page-scroll" href="#services">Introdução</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="#portfolio">Portfolio</a>
+                    <a class="page-scroll" href="#portfolio">Informação</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="#about">About</a>
+                    <a class="page-scroll" href="#about">Sobre</a>
                 </li>
+                @*<li>
+                        <a class="page-scroll" href="#team">Team</a>
+                    </li>*@
                 <li>
-                    <a class="page-scroll" href="#team">Team</a>
-                </li>
-                <li>
-                    <a class="page-scroll" href="#contact">Contact</a>
+                    <a class="page-scroll" href="#contact">Contacto</a>
                 </li>
             </ul>
         </div>
@@ -46,9 +48,10 @@
     <div class="container">
         <div class="intro-text">
             <div class="intro-lead-in">Acampamento Internacional de Cultura Inglesa</div>
-            <div class="intro-heading">A Escola Que Traz o Inglês Até Você
+            <div class="intro-heading">
+                A Escola Que Traz o Inglês Até Você
 
-</div>
+            </div>
             <a href="#services" class="page-scroll btn btn-xl">Aprenda Mais!</a>
         </div>
     </div>
@@ -70,7 +73,7 @@
                     <i class="fa fa-check fa-stack-1x fa-inverse"></i>
                 </span>
                 <h4 class="service-heading">Objectivo</h4>
-                <p class="text-muted">O Acampamento da língua Inglesa em Nova Viçosa - Bahia, tem como objetivo unir estrangeiros aos estudantes brasileiros de forma fácil e dinâmica em um convívio harmônico, cultural e seguro. Utilizando métodos especias de aprendizagem linguísticas.</p>
+                <p class="text-muted" id="justifiedBlurb">O Acampamento da língua Inglesa em Nova Viçosa - Bahia, tem como objetivo unir estrangeiros aos estudantes brasileiros de forma fácil e dinâmica em um convívio harmônico, cultural e seguro. Utilizando métodos especias de aprendizagem linguísticas.</p>
             </div>
             <div class="col-md-4">
                 <span class="fa-stack fa-4x">
@@ -78,7 +81,7 @@
                     <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
                 </span>
                 <h4 class="service-heading">Aprenda Mais</h4>
-                <p class="text-muted">Por favor veja através do nosso site para saber mais sobre o programa único no Brasil que oferece esse tipo de aprendizagem a partir da convivência com estrangeiros. <br /> E quando estiver pronto, conecte-se conosco!</p>
+                <p class="text-muted" id="justifiedBlurb">Por favor veja através do nosso site para saber mais sobre o programa único no Brasil que oferece esse tipo de aprendizagem a partir da convivência com estrangeiros. E quando estiver pronto, conecte-se conosco!</p>
             </div>
             <div class="col-md-4">
                 <span class="fa-stack fa-4x">
@@ -86,12 +89,13 @@
                     <i class="fa fa-volume-control-phone fa-stack-1x fa-inverse"></i>
                 </span>
                 <h4 class="service-heading">Para Mais Informações:</h4>
-                <p class="text-muted">
+                <p class="text-muted" id="justifiedBlurb">
                     Acampamento Internacional de Cultura Inglesa <br />
                     Rua Brasilia, 291, Pontal da Barra <br />
                     Nova Viçosa, Bahia, 45920-000 Brasil <br />
                     73-99904-2075 (Vivo/Whatsapp) <br />
-                    cultura@aicingles.com.br</p>
+                    cultura@aicingles.com.br
+                </p>
             </div>
         </div>
     </div>
@@ -103,7 +107,7 @@
         <div class="row">
             <div class="col-lg-12 text-center">
                 <h2 class="section-heading">Clique Nas Fotos Abaixo Para Mais Informações</h2>
-                <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                @*<h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>*@
             </div>
         </div>
         <div class="row">
@@ -117,7 +121,8 @@
                     <img src="~/img/portfolio/coffeeGroup.jpg" class="img-responsive" id="portfolioPics" alt="">
                 </a>
                 <div class="portfolio-caption">
-                    <h4>Nativos da Língua Inglesa</h4>
+                    <h5 class="text-muted">Nativos da Língua Inglesa</h5>
+                    @*<h4>Nativos da Língua Inglesa</h4>*@
                     @*<p class="text-muted">Graphic Design</p>*@
                 </div>
             </div>
@@ -131,7 +136,7 @@
                     <img src="~/img/portfolio/coconutBeach.jpg" class="img-responsive" id="portfolioPics" alt="">
                 </a>
                 <div class="portfolio-caption">
-                    <h4>Facilidades</h4>
+                    <h5 class="text-muted">Facilidades</h5>
                     @*<p class="text-muted">Website Design</p>*@
                 </div>
             </div>
@@ -145,7 +150,7 @@
                     <img src="~/img/portfolio/boat.jpg" class="img-responsive" id="portfolioPics" alt="">
                 </a>
                 <div class="portfolio-caption">
-                    <h4>Comunidade Amigável e Segura</h4>
+                    <h5 class="text-muted">Comunidade Amigável e Segura</h5>
                     @*<p class="text-muted">Website Design</p>*@
                 </div>
             </div>
@@ -159,7 +164,7 @@
                     <img src="~/img/portfolio/DSC05955.jpg" class="img-responsive" id="portfolioPics" alt="">
                 </a>
                 <div class="portfolio-caption">
-                    <h4>Ambiente</h4>
+                    <h5 class="text-muted">Ambiente</h5>
                     @*<p class="text-muted">Website Design</p>*@
                 </div>
             </div>
@@ -173,7 +178,7 @@
                     <img src="~/img/portfolio/statueOfLiberty.jpg" class="img-responsive" id="portfolioPics" alt="">
                 </a>
                 <div class="portfolio-caption">
-                    <h4>Programa nos E.U.A</h4>
+                    <h5 class="text-muted">Programa nos E.U.A</h5>
                     @*<p class="text-muted">Website Design</p>*@
                 </div>
             </div>
@@ -187,7 +192,7 @@
                     <img src="~/img/portfolio/mapClipOfNV.png" class="img-responsive" id="portfolioPics" alt="">
                 </a>
                 <div class="portfolio-caption">
-                    <h4>Como Chegar a Nova Viçosa</h4>
+                    <h5 class="text-muted">Como Chegar a Nova Viçosa</h5>
                     @*<p class="text-muted">Website Design</p>*@
                 </div>
             </div>
@@ -209,7 +214,7 @@
                 <ul class="timeline">
                     <li>
                         <div class="timeline-image">
-                            <img class="img-circle img-responsive" src="img/about/1.jpg" alt="">
+                            <img class="img-circle img-responsive" id="timelinePics" src="~/img/portfolio/busyStreet2.jpg" alt="">
                         </div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
@@ -222,7 +227,7 @@
                     </li>
                     <li class="timeline-inverted">
                         <div class="timeline-image">
-                            <img class="img-circle img-responsive" src="img/about/2.jpg" alt="">
+                            <img class="img-circle img-responsive" id="timelinePics" src="~/img/portfolio/allieClass.JPG" alt="">
                         </div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
@@ -235,7 +240,7 @@
                     </li>
                     <li>
                         <div class="timeline-image">
-                            <img class="img-circle img-responsive" src="img/about/3.jpg" alt="">
+                            <img class="img-circle img-responsive" id="timelinePics" src="~/img/portfolio/usa-brasil flag.jpg" alt="">
                         </div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
@@ -248,7 +253,7 @@
                     </li>
                     <li class="timeline-inverted">
                         <div class="timeline-image">
-                            <img class="img-circle img-responsive" src="img/about/4.jpg" alt="">
+                            <img class="img-circle img-responsive" id="timelinePics" src="~/img/portfolio/threeGirlsBeach.jpg" alt="">
                         </div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
@@ -261,7 +266,7 @@
                     </li>
                     <li>
                         <div class="timeline-image">
-                            <img class="img-circle img-responsive" src="img/about/4.jpg" alt="">
+                            <img class="img-circle img-responsive" id="timelinePics" src="~/img/portfolio/eating.jpg" alt="">
                         </div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
@@ -286,101 +291,96 @@
 </section>
 
 <!-- Team Section -->
-<section id="team" class="bg-light-gray">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <h2 class="section-heading">Our Amazing Team</h2>
-                <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-4">
-                <div class="team-member">
-                    <img src="img/team/1.jpg" class="img-responsive img-circle" alt="">
-                    <h4>Kay Garland</h4>
-                    <p class="text-muted">Lead Designer</p>
-                    <ul class="list-inline social-buttons">
-                        <li>
-                            <a href="#"><i class="fa fa-twitter"></i></a>
-                        </li>
-                        <li>
-                            <a href="#"><i class="fa fa-facebook"></i></a>
-                        </li>
-                        <li>
-                            <a href="#"><i class="fa fa-linkedin"></i></a>
-                        </li>
-                    </ul>
+@*<section id="team" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Our Amazing Team</h2>
+                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
                 </div>
             </div>
-            <div class="col-sm-4">
-                <div class="team-member">
-                    <img src="img/team/2.jpg" class="img-responsive img-circle" alt="">
-                    <h4>Larry Parker</h4>
-                    <p class="text-muted">Lead Marketer</p>
-                    <ul class="list-inline social-buttons">
-                        <li>
-                            <a href="#"><i class="fa fa-twitter"></i></a>
-                        </li>
-                        <li>
-                            <a href="#"><i class="fa fa-facebook"></i></a>
-                        </li>
-                        <li>
-                            <a href="#"><i class="fa fa-linkedin"></i></a>
-                        </li>
-                    </ul>
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/team/1.jpg" class="img-responsive img-circle" alt="">
+                        <h4>Kay Garland</h4>
+                        <p class="text-muted">Lead Designer</p>
+                        <ul class="list-inline social-buttons">
+                            <li>
+                                <a href="#"><i class="fa fa-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-facebook"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-linkedin"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/team/2.jpg" class="img-responsive img-circle" alt="">
+                        <h4>Larry Parker</h4>
+                        <p class="text-muted">Lead Marketer</p>
+                        <ul class="list-inline social-buttons">
+                            <li>
+                                <a href="#"><i class="fa fa-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-facebook"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-linkedin"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/team/3.jpg" class="img-responsive img-circle" alt="">
+                        <h4>Diana Pertersen</h4>
+                        <p class="text-muted">Lead Developer</p>
+                        <ul class="list-inline social-buttons">
+                            <li>
+                                <a href="#"><i class="fa fa-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-facebook"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-linkedin"></i></a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-            <div class="col-sm-4">
-                <div class="team-member">
-                    <img src="img/team/3.jpg" class="img-responsive img-circle" alt="">
-                    <h4>Diana Pertersen</h4>
-                    <p class="text-muted">Lead Developer</p>
-                    <ul class="list-inline social-buttons">
-                        <li>
-                            <a href="#"><i class="fa fa-twitter"></i></a>
-                        </li>
-                        <li>
-                            <a href="#"><i class="fa fa-facebook"></i></a>
-                        </li>
-                        <li>
-                            <a href="#"><i class="fa fa-linkedin"></i></a>
-                        </li>
-                    </ul>
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
                 </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 text-center">
-                <p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
-            </div>
-        </div>
-    </div>
-</section>
+    </section>*@
 
 <!-- Clients Aside -->
 <aside class="clients">
     <div class="container">
         <div class="row">
             <div class="col-md-3 col-sm-6">
-                <a href="#">
-                    <img src="img/logos/envato.jpg" class="img-responsive img-centered" alt="">
-                </a>
+                <img src="~/img/portfolio/beachevening.jpg" class="img-responsive img-centered" alt="">
+            </div>
+            <div class="col-md-2 col-sm-6">
+                <img src="~/img/portfolio/Music.jpg" class="img-responsive img-centered" alt="">
+            </div>
+            <div class="col-md-2 col-sm-6">
+                <img src="~/img/portfolio/snorkelingBoat.jpg" class="img-responsive img-centered" alt="">
+            </div>
+            <div class="col-md-2 col-sm-6">
+                <img src="~/img/portfolio/readBeachChairs.jpg" class="img-responsive img-centered" alt="">
             </div>
             <div class="col-md-3 col-sm-6">
-                <a href="#">
-                    <img src="img/logos/designmodo.jpg" class="img-responsive img-centered" alt="">
-                </a>
-            </div>
-            <div class="col-md-3 col-sm-6">
-                <a href="#">
-                    <img src="img/logos/themeforest.jpg" class="img-responsive img-centered" alt="">
-                </a>
-            </div>
-            <div class="col-md-3 col-sm-6">
-                <a href="#">
-                    <img src="img/logos/creative-market.jpg" class="img-responsive img-centered" alt="">
-                </a>
+                <img src="~/img/portfolio/beachGroup.jpg" class="img-responsive img-centered" alt="">
             </div>
         </div>
     </div>
@@ -391,15 +391,8 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
-                <h2 class="section-heading">Contact Us</h2>
-                <h3 class="section-subheading text-muted">
-                    <b>Endereço:</b><br />
-                    AICI <br />
-                    Rua Brasilia, 291 <br />
-                    Pontal da Barra <br />
-                    Nova Viçosa, Bahia, 45920-000 <br />
-                    Brasil <br />
-                    <br />
+                <h2 class="section-heading">Entre em Contato Conosco</h2>
+                <h3 class="section-subheading" id="emailAddress">
                     <b>Endereço de E-mail:</b><br />
                     cultura@aicingles.com.br
                 </h3>
@@ -411,28 +404,28 @@
                     <div class="row">
                         <div class="col-md-6">
                             <div class="form-group">
-                                <input type="text" class="form-control" placeholder="Your Name *" id="name" required data-validation-required-message="Please enter your name.">
+                                <input type="text" class="form-control" placeholder="Seu Nome *" id="name" required data-validation-required-message="Por favor, insira seu nome.">
                                 <p class="help-block text-danger"></p>
                             </div>
                             <div class="form-group">
-                                <input type="email" class="form-control" placeholder="Your Email *" id="email" required data-validation-required-message="Please enter your email address.">
+                                <input type="email" class="form-control" placeholder="Seu Email *" id="email" required data-validation-required-message="Por favor, indique o seu endereço de e-mail.">
                                 <p class="help-block text-danger"></p>
                             </div>
                             <div class="form-group">
-                                <input type="tel" class="form-control" placeholder="Your Phone *" id="phone" required data-validation-required-message="Please enter your phone number.">
+                                <input type="tel" class="form-control" placeholder="Seu Telefone *" id="phone" required data-validation-required-message="Por favor, digite seu número de telefone.">
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="form-group">
-                                <textarea class="form-control" placeholder="Your Message *" id="message" required data-validation-required-message="Please enter a message."></textarea>
+                                <textarea class="form-control" placeholder="Seu Messagem *" id="message" required data-validation-required-message="Por favor, digite uma mensagem."></textarea>
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>
                         <div class="clearfix"></div>
                         <div class="col-lg-12 text-center">
                             <div id="success"></div>
-                            <button type="submit" class="btn btn-xl">Send Message</button>
+                            <button type="submit" class="btn btn-xl">Enviar</button>
                         </div>
                     </div>
                 </form>
@@ -444,32 +437,32 @@
 <footer>
     <div class="container">
         <div class="row">
-            <div class="col-md-12">
+            <div class="col-md-5">
                 <span class="copyright">Acampamento Internacional de Cultura Inglesa  &copy2014</span>
             </div>
-            @*<div class="col-md-2">
+            <div class="col-md-2">
                     <ul class="list-inline social-buttons">
                         @*<li>
                             <a href="#"><i class="fa fa-twitter"></i></a>
-                        </li>
+                        </li>*@
                         <li>
                             <a href="https://www.facebook.com/AICIngles/"><i class="fa fa-facebook"></i></a>
                         </li>
-                        <li>
+                        @*<li>
                             <a href="#"><i class="fa fa-linkedin"></i></a>
-                        </li>
+                        </li>*@
                     </ul>
-                </div>*@
-            @*<div class="col-md-4">
+                </div>
+            <div class="col-md-5">
                     <ul class="list-inline quicklinks">
                         <li>
-                            <a href="#">Privacy Policy</a>
+                            <a>Tel: +55-73-99904-2075 (Vivo/Whatsapp)</a>
                         </li>
-                        <li>
+                        @*<li>
                             <a href="#">Terms of Use</a>
-                        </li>
+                        </li>*@
                     </ul>
-                </div>*@
+                </div>
         </div>
     </div>
 </footer>
@@ -490,15 +483,15 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <!-- Project Details Go Here -->
                             <h2>Nativos da Língua Inglesa</h2>
                             <p class="item-intro text-muted">Os estrangeiros que vivem no acampamento, têm o Inglês como primeiro idioma, facilitando assim aos estudantes uma maior experiência sobre a cultura e fácil acesso a língua estrangeira. Ajudando também na aceleração do aprendizado e uma maior exposição ao pronunciamento correto.</p>
-                            <img class="img-responsive img-centered" src="~/img/portfolio/roundicons-free.png" alt="">
-                            @*<ul class="list-inline">
-                                <li>Date: July 2014</li>
-                                <li>Client: Round Icons</li>
-                                <li>Category: Graphic Design</li>
-                            </ul>*@
+                            <div class="inlineImagesContainer">
+                                <div class="inlineImages"><img class="img-responsive img-centered" src="~/img/modals/juliette.jpg" alt=""></div>
+                                <div class="inlineImages"><img class="img-responsive img-centered" src="~/img/modals/carmen.jpg" alt=""></div>
+                                <div class="inlineImages"><img class="img-responsive img-centered" src="~/img/modals/brits.jpg" alt=""></div>
+                                <div class="inlineImages"><img class="img-responsive img-centered" src="~/img/modals/dominos.jpg" alt=""></div>
+                                @*<div class="inlineImages"><img class="img-responsive img-centered" src="~/img/modals/sunsetTalk.jpg" alt=""></div>*@
+                            </div>
                             <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Fechar</button>
                         </div>
                     </div>
@@ -524,7 +517,11 @@
                         <div class="modal-body">
                             <h2>Facilidades</h2>
                             <p class="item-intro text-muted">Tendo um programa como esse no seu próprio país, é muito mais barato e fácil do que ter que conseguir um visto, viajar para um lugar desconhecido, onde muita das vezes encontrará grandes dificuldades por não ter moradia ou conhecidos.</p>
-                            <img class="img-responsive img-centered" src="img/portfolio/startup-framework-preview.png" alt="">
+                            <div class="inlineImagesContainer">
+                                @*<div class="inlineImagesFacilidades"><img class="img-responsive img-centered" src="~/img/modals/flagThirdFloor.jpg" alt=""></div><br />*@
+                                <div class="inlineImagesFacilidades"><img class="img-responsive img-centered" src="~/img/modals/sandCloseup.jpg" alt=""></div><br />
+                                <div class="inlineImagesFacilidades"><img class="img-responsive img-centered" src="~/img/modals/sunset.jpg" alt=""></div>
+                            </div>
                             <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Fechar</button>
                         </div>
                     </div>
@@ -548,10 +545,15 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <!-- Project Details Go Here -->
                             <h2>Comunidade Amigável e Segura</h2>
                             <p class="item-intro text-muted">Localizado em uma comunidade costeira, tendo assim a tranquilidade necessaria para o foco na rápida aprendizagem. Dentro de um ambiente amigável com o apoio de professores e estudantes.</p>
-                            <img class="img-responsive img-centered" src="img/portfolio/treehouse-preview.png" alt="">
+                            <div class="inlineImagesContainer">
+                                <div class="inlineImagesCommunidade"><img class="img-responsive img-centered" src="~/img/modals/boatPic.jpg" alt=""></div>
+                                <div class="inlineImagesCommunidade"><img class="img-responsive img-centered" src="~/img/modals/fourOnBeach.jpg" alt=""></div>
+                                <div class="inlineImagesCommunidade"><img class="img-responsive img-centered" src="~/img/modals/drinkingThree.jpg" alt=""></div>
+                                <div class="inlineImagesCommunidade"><img class="img-responsive img-centered" src="~/img/modals/grassMusic.jpg" alt=""></div>
+                                <div class="inlineImagesCommunidade"><img class="img-responsive img-centered" src="~/img/modals/eatingTapioca.jpg" alt=""></div>                            
+                            </div>
                             <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Fechar</button>
                         </div>
                     </div>
@@ -575,14 +577,11 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <!-- Project Details Go Here -->
                             <h2>Ambiente</h2>
-                            <p class="item-intro text-muted">
-                                O Centro Cultura Internacional traz para perto de você pessoas nativas de línguas estrangeiras, construindo assim um ambiente de interação e estudo. Um lugar onde você terá o conforto de estar no seu país, mas se sentido como se estivesse no exterior. <br />
-                                O AICI disponibiliza de muito espaço para as pessoas que alí convivem. São várias suítes, onde todos podem alojar-se com muito conforto.<br />
-                                Temos mais de 1000m2 há nossa disposição, jardim, terraço, salão de eventos, cozinha, sala de aula, estacionamento e muito mais. Tudo isso bem perto de praias e rios, com uma natureza em abundância.
-                            </p>
-                            <img class="img-responsive img-centered" src="img/portfolio/golden-preview.png" alt="">
+                            <p class="item-intro text-muted">O Centro Cultura Internacional traz para perto de você pessoas nativas de línguas estrangeiras, construindo assim um ambiente de interação e estudo. Um lugar onde você terá o conforto de estar no seu país, mas se sentido como se estivesse no exterior.</p>
+                            <p class="item-intro text-muted">O AICI disponibiliza de muito espaço para as pessoas que alí convivem. São várias suítes, onde todos podem alojar-se com muito conforto.</p>
+                            <p class="item-intro text-muted">Temos mais de 1000m2 há nossa disposição, jardim, terraço, salão de eventos, cozinha, sala de aula, estacionamento e muito mais. Tudo isso bem perto de praias e rios, com uma natureza em abundância.</p>
+                            <img class="img-responsive img-centered" src="~/img/portfolio/DSC05955.JPG" alt="">
                             <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Fechar</button>
                         </div>
                     </div>
@@ -606,10 +605,9 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <!-- Project Details Go Here -->
                             <h2>Intercambio Nos Estados Unidos!</h2>
                             <p class="item-intro text-muted">Fazemos a intermediação entre você e o consulado, orientado nas documentações necessarias para que possa conseguir seu visto estudantil.</p>
-                            <img class="img-responsive img-centered" src="img/portfolio/escape-preview.png" alt="">
+                            <img class="img-responsive img-centered" src="~/img/portfolio/usa-brasil flag.jpg" alt="">
                             <p>Programas como:</p>
                             <p>Discover California, Discover California Junior, California Summer, Explore California, Junior Camp, Surf Camp, Cinema Camp, Acting Camp, Photography Camp, Outdoor Adventure Camp, Discover The East Coast, Discover New York, TOEFL/SAT Prep Camp, Basketball Camp, Boston Summer, Discover Boston</p>
                             <p>Média de $3600 dólares por 3 semanas (não inclue passagens Aéreas e despesas com taxas consulares).</p>
@@ -637,35 +635,45 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <!-- Project Details Go Here -->
                             <h2>Como chegar a Nova Viçosa</h2>
-                            @*<p class="item-intro text-muted">Português</p>
-                                <img class="img-responsive img-centered" src="img/portfolio/dreams-preview.png" alt="">*@
-                            <p>De Ônibus:</p>
-                            <p>Vindo do sul do Brasil, de cidades como São Paulo, Rio de Janeiro e Vitória, a melhor maneira é, ir até a rodoviária mais próxima e comprar passagem até Teixeira de Freitas que fica no extremo sul da Bahia. As empresas que mais fazem essas rotas são: São Geraldo e Águia Branca. Mesmo com a passagem com destino a Teixeira de Freitas, o desembarque será feito em Posto da Mata, que é distrito de Nova Viçosa, mais fica localizado próximo a BR101. De Posto da Mata, a empresa de ônibus Santa Clara fornece 4 horários com destino a Nova Viçosa. 6:00, 9:30, 12:00, 16:30 horas. Valor da passagem. R$15 reais. 2 horas de viagem.</p>
-                            <p>Vindo do Vitoria, o ônibus (Aguia Branca) sai de Vitória todas as sexta-feira feiras as 23:00h, passando por São Mateus por volta das 2:00h e chegando em Nova Viçosa as 5h. Retorno no domingo as 23:00h, chegando em Vitória as 5h. R$75. R$150 inda e volta.</p>
-                            <p>
-                                Vindo do Norte, de cidades como Salvador, Ilhéus, Itacaré, Porto Seguro... O procedimento é o mesmo.<br />
-                                OBS: O desembarque também poderá ser feito em Teixeira de Freitas, mais terá menos opções de ônibus para Nova Viçosa. Ainda não e possível encontrar essas rotas na Internet (Google).
-                            </p>
-                            <p>
-                                Vindo de Belo Horizonte, a empresa Onix tem ônibus todos os dias saindo do Terminal Turístico JK (Rua dos Guajajaras, 1353, Barro Preto, Belo Horizonte - MG, 30180-101), no centro da cidade, com uma viagem direto para Nova Viçosa, parando em Nanuque, MG para embarque. Ônibus sai as 20:00 horas e chega a Nova Viçosa por volta das 7:00 horas. Onix: 080-0­283­-2917. BH: 31­-3443-­0247­. Posto da Mata: 73­-3209­-3533.<br />
-                                OBS­: Eles não fazem reserva por telefone. Preço da passagem R$130 reais.
-                            </p>
-                            <p>IPATINGA: O ônibus (São Geraldo) sai de BH as 17:30h passando em Ipatinga as 22:00h e chegando em Nova Viçosa as 6:00h. (Segundas-, Quartas- e Sexta-feiras). Retorno no domingo as 16:45h. (Terças-, Quintas- e Domingos) R$137. R$264 ida e volta.</p>
-                            <p>A São Geraldo tem ônibus fazendo o percurso Belo Horizonte - Nova Viçosa 3x por semana, (Segunda, Quarta e Sexta-feira). Horário de saída, às 17:20. Rodoviária príncipal. Com paradas em: Coronel Fabriciano - 21:10, Ipatinga - 21:40, G. Valadares - 23:35, T. Otoni - 01:25, Nanuque - 04:00, Posto da Mata - 05:00, Mucuri - 06:05, Nova Viçosa - 06:30. Saída de Nova Viçosa - Belo Horizonte 18:45. (Terça, Quinta e Domingo) Valor da passagem - R$120 reais.</p>
-                            <p>Outras cidades como Ipatinga, Governador Valadares, a São Geraldo também vai até Posto da Mata.</p>
-                            <p>
-                                De Avião:<br />
-                                A opção mais barato seria voar até Vitória no Espirito Santo, depois terá a opção de pegar um taxi que faz Nova Viçosa – Vitória todos os dias, no valor de R$100. Horários variados. AICI: 73-9904-2075­ (Vivo).
-                                <br />
-                                Aeroporto de Teixeira de Freitas também é uma opção, mais caro, porém bem mais perto de Nova Viçosa.
-                                OBS:­ Com antecedência e possível encontrar voos para Teixeira de Freitas com valores abaixo de R$200 reais.
-                            </p>
-                            <p>
-                                De Carro:<br />
-                                Essas informacões poderá ser encontradas facilmente pela internet. BR 101, depois entrada para Mucuri­, Bahia Nova Viçosa está a 32 km depois de Mucuri.
-                            </p>
+                            <img class="img-responsive img-centered" src="~/img/portfolio/wideMapNV.png" alt="">
+                            <p class="item-intro text-muted">Português</p>
+                            <div class="modalBodyLeftAlign">
+                                <p>De Ônibus:</p>
+                                <p>Vindo do SUL do Brasil, de cidades como São Paulo, Rio de Janeiro e Vitória, a melhor maneira é, ir até a rodoviária mais próxima e comprar passagem até Teixeira de Freitas que fica no extremo sul da Bahia. As empresas que mais fazem essas rotas são: São Geraldo e Águia Branca. Mesmo com a passagem com destino a Teixeira de Freitas, o desembarque será feito em Posto da Mata, que é distrito de Nova Viçosa, mais fica localizado próximo a BR101. De Posto da Mata, a empresa de ônibus Santa Clara fornece 4 horários com destino a Nova Viçosa. 6:00, 9:30, 12:00, 16:30 horas. Valor da passagem. R$15 reais. 2 horas de viagem.</p>
+                                <p>Vindo do VITORIA, o ônibus (Aguia Branca) sai de Vitória todas as sexta-feira feiras as 23:00h, passando por São Mateus por volta das 2:00h e chegando em Nova Viçosa as 5h. Retorno no domingo as 23:00h, chegando em Vitória as 5h. R$75. R$150 inda e volta.</p>
+                                <p>Vindo de BELO HORIZONTE, a empresa Onix tem ônibus todos os dias saindo do Terminal Turístico JK (Rua dos Guajajaras, 1353, Barro Preto, Belo Horizonte - MG, 30180-101), no centro da cidade, com uma viagem direto para Nova Viçosa, parando em Nanuque, MG para embarque. Ônibus sai as 20:00 horas e chega a Nova Viçosa por volta das 7:00 horas. Onix: 080-0­283­-2917. BH: 31­-3443-­0247­. Posto da Mata: 73­-3209­-3533.<br />
+                                    OBS­: Eles não fazem reserva por telefone. Preço da passagem R$130 reais.</p>
+                                <p>IPATINGA: O ônibus (São Geraldo) sai de BH as 17:30h passando em Ipatinga as 22:00h e chegando em Nova Viçosa as 6:00h. (Segundas-, Quartas- e Sexta-feiras). Retorno no domingo as 16:45h. (Terças-, Quintas- e Domingos) R$137. R$264 ida e volta.</p>
+                                <p>A São Geraldo tem ônibus fazendo o percurso Belo Horizonte - Nova Viçosa 3x por semana, (Segunda, Quarta e Sexta-feira). Horário de saída, às 17:20. Rodoviária príncipal. Com paradas em: Coronel Fabriciano - 21:10, Ipatinga - 21:40, G. Valadares - 23:35, T. Otoni - 01:25, Nanuque - 04:00, Posto da Mata - 05:00, Mucuri - 06:05, Nova Viçosa - 06:30. Saída de Nova Viçosa - Belo Horizonte 18:45. (Terça, Quinta e Domingo) Valor da passagem - R$120 reais.</p>
+                                <p>Outras cidades como Ipatinga, Governador Valadares, a São Geraldo também vai até Posto da Mata.</p>
+                                <p>Vindo do NORTE, de cidades como Salvador, Ilhéus, Itacaré, Porto Seguro... O procedimento é o mesmo.<br />
+                                    OBS: O desembarque também poderá ser feito em Teixeira de Freitas, mais terá menos opções de ônibus para Nova Viçosa. Ainda não e possível encontrar essas rotas na Internet (Google).</p>
+                                <p>De Avião:</p>
+                                <p>A opção mais barato seria voar até Vitória no Espirito Santo, depois terá a opção de pegar um taxi que faz Nova Viçosa – Vitória todos os dias, no valor de R$100. Horários variados. AICI: 73-9904-2075­ (Vivo).
+                                    <br />
+                                    Aeroporto de Teixeira de Freitas também é uma opção, mais caro, porém bem mais perto de Nova Viçosa.
+                                    OBS:­ Com antecedência e possível encontrar voos para Teixeira de Freitas com valores abaixo de R$200 reais.</p>
+                                <p>De Carro:</p>
+                                <p>Essas informacões poderá ser encontradas facilmente pela internet. BR 101, depois entrada para Mucuri­. Nova Viçosa está a 32 km depois de Mucuri.</p>
+                            </div>
+                            <p class="item-intro text-muted">English</p>
+                            <div class="modalBodyLeftAlign">
+                                <p>By Bus:</p>
+                                <p>If you are coming from the south of Brazil, from cities like São Paulo, Rio de Janeiro, and Vitória, the best way is to go to the nearest bus station and buy a ticket to Teixeira de Freitas, which is in the south of Bahia. Companies that offer these routes are: São Geraldo and Águia Branca. Even with the passage bound for Teixeira de Freitas, landing will be done in the Posto da Mata, which is in the Nova Viçosa district, but is located near the BR101. From Posto da Mata, the bus company Santa Clara provides buses 4 times per day from Nova Viçosa at 6:00, 9:30, 12:00, and 16:30. Tickets are R$15 reais. 2-hour trip.</p>
+                                <p>Coming from the North, from cities like Salvador, Ilheus, Itacare, Porto Seguro ... the procedure is the same.<br />
+                                    NOTE: The landing can also be done in Teixeira de Freitas, but there will be fewer bus options for Nova Viçosa. It is not possible to find these routes on the Internet (Google).</p>
+                                <p>Coming from Belo Horizonte, a company named Onix Bus offers trips departing every day out of the Tourist Terminal JK (Rua dos Guajajaras, 1353, Barro Preto, Belo Horizonte - MG, 30180-101) in the city center, with a direct trip to Nova Viçosa, stopping in Nanuque, MG for transfers. Buses leave at 20:00 and arrive in Nova Viçosa around 7:00 hours. Onix: 080-0283-2917. BH: 31-3443-0247. Posto da Mata: 73-3209-3533. Note: They do not take reservations by phone. Fare is R$130 reais.</p>
+                                <p>The bus company São Geraldo also offers trips between Belo Horizonte and Nova Viçosa 3 times per week, (Monday, Wednesday and Friday). The bus departs at 17:20 from the main bus station. Stops are made at Coronel Fabriciano - 21:10, Ipatinga - 21:40, G. Valadares - 23:35, T. Otoni - 01:25, Nanuque - 04:00, Posto da Mata - 05:00, Mucuri - 06:05, Nova Viçosa - 06:30. Departures from Nova Viçosa to Belo Horizonte are at 18:45 (Tuesday, Thursday and Sunday).
+                                    Fare is R$120 reais.</p>
+                                <p>Other cities like Ipatinga, Governador Valadares, and São Geraldo also offer bus options going to Posto da Mata.</p>
+                                <p>By Air:</p>
+                                <p>A cheaper option might be to fly to Vitória in Espirito Santo, after which there will be the option to take a taxi which travels between Nova Viçosa and Vitória every day for R$120 reais/person. Times vary. Talk to AICI: 73-9904-2075 (Vivo).</p>
+                                <p>Teixeira de Freitas Airport is also an option, more expensive, but much closer to Nova Viçosa.<br />
+                                    NOTE: With advance planning, it is possible to find flights from Belo Horizonte to Teixeira de Freitas with values ​around R$200 reais.</p>
+                                <p>By Car:</p>
+                                <p>This information can be easily found on the Internet. Take BR 101 and exit to Mucuri, Bahia. Nova Viçosa is 32 km after Mucuri.</p>
+                            </div>
 
                             <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Fechar</button>
                         </div>
@@ -674,5 +682,4 @@
             </div>
         </div>
     </div>
-</div>
 
