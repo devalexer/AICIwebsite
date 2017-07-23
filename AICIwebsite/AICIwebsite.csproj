@@ -211,6 +211,9 @@
       <DependentUpon>agency.js</DependentUpon>
     </Content>
     <Content Include="Scripts\js\contact_me.js" />
+    <Content Include="Scripts\js\contact_me.min.js">
+      <DependentUpon>contact_me.js</DependentUpon>
+    </Content>
     <Content Include="Scripts\js\jqBootstrapValidation.js" />
     <Content Include="Content\mail\contact_me.php" />
     <Content Include="Content\vendor\bootstrap\css\bootstrap.css" />
@@ -219,7 +222,9 @@
     </Content>
     <Content Include="Content\vendor\bootstrap\fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Content\vendor\bootstrap\js\bootstrap.js" />
-    <Content Include="Content\vendor\bootstrap\js\bootstrap.min.js" />
+    <Content Include="Content\vendor\bootstrap\js\bootstrap.min.js">
+      <DependentUpon>bootstrap.js</DependentUpon>
+    </Content>
     <Content Include="Content\vendor\font-awesome\css\font-awesome.css" />
     <Content Include="Content\vendor\font-awesome\css\font-awesome.min.css">
       <DependentUpon>font-awesome.css</DependentUpon>

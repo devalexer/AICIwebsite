@@ -52,5 +52,11 @@
     "inputFiles": [
       "Scripts/js/contact_me.js"
     ]
+  },
+  {
+    "outputFileName": "Content/vendor/bootstrap/js/bootstrap.min.js",
+    "inputFiles": [
+      "Content/vendor/bootstrap/js/bootstrap.js"
+    ]
   }
 ]
