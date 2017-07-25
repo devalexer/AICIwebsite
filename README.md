@@ -14,7 +14,7 @@ This website was a redo/update of a website previously created on webs.com for t
 
 ## ESTIMATED TIME FOR PROJECT:
 
-Estimated: ~15 hours
+Estimated: ~15 hours; 
 Actual: ~10 hours
 
 ## DEMO:
