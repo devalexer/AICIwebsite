@@ -1,6 +1,4 @@
-<a href="https://www.aicingles.com.br/">AICI</a>
-
-# AICIwebsite
+# AICI Website
 Redo of website for Acampamento Internacional de Cultural Inglesa (www.aicingles.com.br). 
 
 ## TECHNICAL INFORMATION:
