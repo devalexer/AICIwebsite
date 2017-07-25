@@ -1,11 +1,7 @@
+<a href="https://www.aicingles.com.br/">AICI</a>
+
 # AICIwebsite
-Redo of AICI website
-
-<a href="https://www.evaluchart.com/">
-    <img src="https://raw.githubusercontent.com/devalexer/EvaluationApp/master/media/Evaluchart3%202c-01.png" alt="EvaluChart Logo" title="EvaluChart" align="right" width="350" />
-## EvaluChart
-
-Real-time feedback tool for educators to monitor student levels of comprehension and questions during lectures. The educational evaluation application tracks feedback from multiple users and displays it on a master screen.
+Redo of website for Acampamento Internacional de Cultural Inglesa (www.aicingles.com.br). 
 
 ## TECHNICAL INFORMATION:
 - Visual Studio 2017
@@ -16,11 +12,12 @@ Real-time feedback tool for educators to monitor student levels of comprehension
 
 ## PURPOSE:
 
-This application was created as a final project for the Iron Yard program, designed to pull together all knowledge from the bootcamp course.
+This website was a redo/update of a website previously created on webs.com for the purpose of updating the style and hosting it for free on gearhost.
 
 ## ESTIMATED TIME FOR PROJECT:
 
-Total: ~125hours including time spent on education for new features
+Estimated: ~15 hours
+Actual: ~10 hours
 
 ## DEMO:
-![](https://raw.githubusercontent.com/devalexer/EvaluationApp/master/media/EvaluChart.gif)
+![](https://github.com/devalexer/AICIwebsite/blob/master/media/AICIwebsite.gif)
