@@ -215,7 +215,7 @@
       <DependentUpon>contact_me.js</DependentUpon>
     </Content>
     <Content Include="Scripts\js\jqBootstrapValidation.js" />
-    <Content Include="Content\mail\contact_me.php" />
+    <Content Include="mail\contact_me.php" />
     <Content Include="Content\vendor\bootstrap\css\bootstrap.css" />
     <Content Include="Content\vendor\bootstrap\css\bootstrap.min.css">
       <DependentUpon>bootstrap.css</DependentUpon>
